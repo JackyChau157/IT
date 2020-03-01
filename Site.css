@@ -1,0 +1,83 @@
+﻿body {
+    background: #f1f4cc;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {   
+    padding-top: 30px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+    
+    /*------------------------------*/
+}
+.header{
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+}
+
+.tbl-header table td {
+    min-width: 100px;
+}
+.tbl-header {
+        display: flex;
+    }
+#tbl-3{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+.tbl-right {
+    border: solid 1px;
+    background-color: #dfdfdf;
+}
+#tbl-2{
+    margin-left: 3%;
+}
+.tbl-header {
+    padding-left: 5%;
+    margin-bottom: 30px;
+}
+.tbl-header-2{
+    display: flex;
+    border-bottom: solid 1px;
+    padding-bottom: 30px;
+}
+#tbl-h2{
+    margin-left: 3%;
+}
+#tbl-h1{
+    margin-left: 5%;
+    margin-top: 21px;
+}
+.border {
+    border-bottom: solid 1px;
+}
+
+.tbl-header-2 td, th{
+    min-width: 120px;
+    border: solid 1px;
+}
+
+label{
+    all: unset;
+}
+.td-bt td{
+    background-color: white;
+}
+.tbl-header-3{
+    
+}
